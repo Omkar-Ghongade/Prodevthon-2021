@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
+import java.util.Calendar;
 
 public class MainActivity4 extends AppCompatActivity {
 
@@ -17,6 +18,11 @@ public class MainActivity4 extends AppCompatActivity {
 
         txt=(TextView) findViewById(R.id.textView14);
         txt2=(TextView) findViewById(R.id.textView3);
+
+        int min=0,max=9;
+        int ind = (int)(Math.random()*(max-min+1)+min);
+        txt2.setText(sequrity_codes[ind]);
+
 
 
     }
