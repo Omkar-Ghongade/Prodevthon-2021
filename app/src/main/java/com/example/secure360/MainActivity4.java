@@ -16,7 +16,6 @@ public class MainActivity4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_3);
 
-        txt=(TextView) findViewById(R.id.textView14);
         txt2=(TextView) findViewById(R.id.textView3);
 
         int min=0,max=9;
