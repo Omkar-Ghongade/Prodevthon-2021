@@ -15,24 +15,9 @@ public class MainActivity4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_3);
 
-        txt=(TextView) findViewById(R.id.textView4);
+        txt=(TextView) findViewById(R.id.textView14);
         txt2=(TextView) findViewById(R.id.textView3);
-        int len=120;
-        for(int i=len;i>=0;i--)
-        {
-            int max=9;
-            int min=0;
-            int ind=(int)(Math.random()*(max-min+1)+min);
-            txt2.setText(sequrity_codes[ind]);
-            int finalI = i;
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println("1");
-                    txt.setText("Time Remaining : "+ finalI +" Seconds");
-                }
-            },1000);
-        }
+
 
     }
 }
