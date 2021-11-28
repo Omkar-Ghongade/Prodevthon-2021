@@ -15,7 +15,7 @@
         android:ems="10"
         android:textSize="13dp"
         android:gravity="center"
-        android:hint="Enter Your Name"
+        android:hint="Enter Your Aadhar Card Number"
         android:inputType="textPersonName"
         android:textColorHint="@color/grey"
         android:background="@drawable/text_round"
